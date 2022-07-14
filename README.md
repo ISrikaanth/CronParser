@@ -26,7 +26,7 @@ Clone the repo:
 
 ```bash
 git clone https://github.com/ISrikaanth/CronParser.git
-cd CRONPARSER
+cd cronparser
 ```
 
 Install dependencies:
