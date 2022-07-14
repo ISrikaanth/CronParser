@@ -38,7 +38,7 @@ npm install
 ## Running Locally
 
 ```bash
-npm run dev
+node src/parser.js "<enter cron expression here>"
 ```
 
 ## Documentation
