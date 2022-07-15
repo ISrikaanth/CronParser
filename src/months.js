@@ -121,9 +121,7 @@ const evaluateMonths = value => {
     let valuesArray = value.split(',');
     let responses = [];
     let failed = false;
-    console.log('Start');
     forEach(valuesArray, values => {
-      console.log('inside', values);
       let response = evaluateMonthsUtil(values);
       if (response) {
         responses.push(response);
@@ -133,7 +131,6 @@ const evaluateMonths = value => {
         return false;
       }
     });
-    console.log('failed', failed);
     if (failed) {
       return false;
     } else {
